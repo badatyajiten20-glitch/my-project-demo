@@ -1,0 +1,13 @@
+# Ignore systen files
+**/AppData/
+*.log
+*.txt
+*.keystore
+*.class
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

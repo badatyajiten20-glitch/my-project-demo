@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action="login.js">
+        <input type="text" placeholder="Full Name"><br>
+        <p>Enter your Mobile number</p>
+        <input type="tel" placeholder="Mobile Number"><br>
+        <p>Enter your state</p>
+        <select name="state" id="state">
+            <option value="Arunanchal Pradesh">Arunanchal Pradesh</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Odisha">Odisha</option>
+        </select><br><br>
+        <hr>
+        <p>Enter your class</p>
+        <label class="check">
+        <input type="radio">Class XI
+        </label>
+        <BR>
+            <label class="check">
+        <input type="radio">Class XII
+        </label>
+        <BR><hr>
+            <label id="001">Enter Pasword</label>
+            <input type="password" placeholder="Enter password" id="001">
+            
+            <br>
+            <label id="002">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="002">
+            
+            <button type="submit">Submit</button>
+     </form>
+     <script src="login.js"></script>
+</body>
+</html>
